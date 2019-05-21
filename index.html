@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- FontAwesome - Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center mb-3"><span class="text-danger">M</span>oney <span class="text-danger">C</span>onverter</h1>
+                <form>
+                    <div class="form-group">
+                        <input id="LbsInput" type="number" placeholder="Enter a currency (dinar)" class="form-control form-control-lg">
+                    </div>
+                </form>
+                <div id="output">
+                    <div class="card bg-primary mb-2 p-2">
+                        <h4>EUR:</h4>
+                        <div id="eurOutput"></div>
+                    </div>
+
+                    <div class="card bg-success mb-2 p-2">
+                        <h4>USD:</h4>
+                        <div id="usdOutput"></div>
+                    </div>
+
+                    <div class="card bg-danger mb-2 p-2">
+                        <h4>GBP:</h4>
+                        <div id="gbpOutput"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
